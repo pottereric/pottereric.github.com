@@ -1,0 +1,27 @@
+auto: true
+markdown: rdiscount
+pygments: true
+
+title: Humble Toolsmith
+
+url: http://pottereric.github.com
+
+permalink: /:year/:month/:day/:title/
+
+author:
+    name: Eric Potter
+    email: eric.b.potter@gmail.com
+    github: pottereric
+    twitter: pottereric
+    gravatar: https://www.gravatar.com/avatar/5419f3f5fec50cfcfd0c7d4a18ae25ca.png
+
+comments:
+    provider: disqus
+    disqus:
+        short_name: humbletoolsmith
+        
+analytics:
+    provider: google 
+    google: 
+        tracking_id: 'UA-18015420-1'
+        domain: 'pottereric.github.com'
