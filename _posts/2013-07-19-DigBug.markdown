@@ -1,0 +1,25 @@
+---
+comments: true
+date: 2013-07-19 14:30:00
+layout: post
+slug: DigBug
+title: DigBug
+summary: 'The Debug Joystick'
+image: 'DigBug\top.thin.jpg'
+tags:
+- Projects
+- Arduino
+---
+
+
+As a programmer, I spend a fair amount of time debugging code. One day I realized that the four primary debugging commands (run, step over, step in, step out) are roughly analogous to the four directions of a joystick (up, down, left, right). It is also useful to have buttons to stop and toggle breakpoints.
+
+[![](/img/posts/DigBug/top.web.jpg)](/img/posts/DigBug/top.web.jpg)
+
+I found an arcade joystick and two arcade style buttons. They are mounted in a wood encloure that is an homage to an arcade machine. The joystick and the buttons are connected to a Teensy microcontroller. (http://www.pjrc.com/teensy/) The Teensy acts like a USB keyboard and sends the correct keyboard shortcut for each of the inputs. Because the computer sees DigBug as a keyboard, there is nothing to install on the desktop.
+
+The Teensy microcontroller was great to work with. It can be programmed with the Arduino IDE, which is what I did. (You can get the Teensyduino libraries from their website.) It is small, so it can easily be embedded in a project like this. It was nice libraries to make the Teensy act like a keyboard or a mouse.
+
+[![](/img/posts/DigBug/bottom.web.jpg)](/img/posts/DigBug/bottom.web.jpg)
+
+My wife created the artwork on the side. Each side has an image that looks like one of the Visual Studio debug icons dug out in a Dig Dug level.  
