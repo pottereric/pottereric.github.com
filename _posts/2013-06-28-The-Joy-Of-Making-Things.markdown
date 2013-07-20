@@ -5,7 +5,7 @@ layout: post
 slug: the-joy-of-making-things
 title: The Joy of Making Things
 summary: 'There is something fun about creating an object'
-image: 'the-joy-of-making-things\rainbarrel.jpg'
+image: 'the-joy-of-making-things\RainBarrel.jpg'
 tags:
 - fun
 - make
