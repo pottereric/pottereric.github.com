@@ -1,6 +1,20 @@
-The Right Size Wrench
+---
+comments: true
+date: 2013-07-19 14:30:00
+layout: post
+slug: The Right Size Wrench
+title: The Right Size Wrench
+summary: 'The Right Size Wrench'
+image: 'The-right-size-wrench\wrenches.thin.jpg'
+tags:
+- General
+---
+
+
 
 My grandpa was a mechanic for Catapiler machinery. He was one of the finest and hardest working men I have ever known. Ever since I was little I was fascinated by his tool box, especially the wrenches. He had a wrench for everything. Little wrenches, big wrenchs, socket wrenches, cresenct wrenches, allen wrenchs, and open-end wrenches. My favorite was a 1 1/2 inch open-end wrench that weights more than two pounds.
+
+[![](/img/posts/The-right-size-wrench/wrenches.web.jpg)](/img/posts/The-right-size-wrench/wrenches.web.jpg)
 
 Grandpa didn't collect wrenchs because he liked something about the wrenchs, he collected them because they helped him solve real problems.
 
