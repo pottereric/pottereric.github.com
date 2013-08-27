@@ -1,0 +1,54 @@
+---
+comments: true
+date: 2013-08-26 14:30:00
+layout: post
+slug: Lessons From iWoz
+title: Lessons From iWoz
+summary: 'Lessons From iWoz'
+image: 'The-right-size-wrench\wrenches.thin.jpg'
+tags:
+- Books
+- Software Craftsmanship
+---
+
+#iWoz#
+Like many people I read Walter Issacson's biography of Steve Jobs soon after it was published. It was a great read and Jobs was certainly a fascinating individual. But for me, the most interesting person in the book was Steve Wozniak. Jobs was the visionary that drove Apple, but in the early days, it was Wozniak that brought the vision to fruition. Wanting to know more about Wozniak, I recently read his autobiography titled iWoz.
+
+The full title of the book is *iWoz: Computer Geek to Cult Icon: How I Invented the Personal Computer, Co-Founded Apple, and Had Fun Doing It*.  This explains a lot about why I loved the book. The idea that inventing and creating this is fun is largely why I got into engineering in the first place. Woz exemplifies this mindset that it is fun to make new things. And he made one of the most brilliantly engineered devices of the modern era. 
+
+Woz was primarily as hardware engineer. He did write quite a bit of software as well. Being a programmer, I read the book thinking about what lessons I can learn for him. This is what I took away.
+
+## Loving What You do ##
+It is clear from the book that one of the reasons that Woz was such a great engineer was that he loved it so much. He truly enjoyed building electronic gadgets. In high school, his hobby was studying the designs of mini computers and trying to figure out how to rebuild them using fewer chips. He build his first computer, which he called the cream soda computer, just for fun. He dedicated a great many hours to becoming a better engineer, and was able to do so in part because he loved it. 
+
+## Thinking About Your Users ##
+Early in the book, Woz describes himself as "an engineer who worries about people a lot." The Apple I and the Apple II were both brilliantly engineered computers. But the reason that they started the PC revolution was that a person could use the computer without being an electronics wizard. Woz thought about what the user would want and built something that met their needs. Steve Jobs also obsessed with this in everything he did. If fact that was one of the main lessons I took away from his biography as well. 
+
+As software engineers, we build tools. We are only successful when our users are successful. We must be focused on how are users will benefit from our software and that it will be intuitive for them. 
+
+## Craftsmanship ##
+Woz cared deeply about the quality of his work. You can see the fruits of this whenever you see an Apple II today. Even though the Apple IIs are roughly 30 years old today, the chances are that if you can find one, it will still work. In chapter 20 he says "And it is this reach for perfection, this striving to put everything together so perfectly in a way that no one has done before, that makes and engineer or anyone else a true artist." 
+
+As software engineers, we ought to care about the quality of our work. Will our work stand the test of time? Will it be valuable to our users for years to come?
+
+## Design ##
+Whenever Woz was building something new, he always spent a lot of time in preparation before he actually built it. He would study the chips he was thinking about using. He would design and redesign the circuits on paper. When it was time to build them, he already knew they would work. 
+
+In my experience, we often jump to coding too quickly. Often it is more productive to work through a problem on paper. Sometimes, the greatest tool that a programmer has is a large white board. Having a good plan leads to better software. This is also one of the reasons that Test Driven Design is beneficial. If you have written the test, you have done design work.
+
+## Preparedness ##
+Woz was a brilliant engineer. But it is impossible to believe that his success was not a combination of his talent and fortunate timing. He was coming into his own at a time when microprocessors and ram became affordable to individuals. At the same time, floppy drives became available. Mainframes and minicomputers have created a base of computer programmers that were able to create software for the personal consumer market. The confluence of these events enabled the Apple I to be the success that it was. 
+
+But what set him apart at the time, was the he may have been the only person alive that was prepared to build the personal computer. The parts were available to everyone, but he was the only one with knowledge of all the parts. He had experience building simple computers from the time that he built a simple computer out of integrated circuits. He had experience with keyboard input and video output from building his own terminal. He also had experience with video output from working on a early device that would be considered a VCR. These were project he had done in his spare time just for fun. He also had experience with booting a computer from ROM from the work he did at HP on calculators. He had experience programming from his time in collage, some previous jobs, and the time he and Steve Jobs developed the game Breakout for Atari.
+
+His experience came from his education, his professional work, and his personal projects. Likewise, as software engineers, we need to be constantly broadening our skill set. Some of that will be done through education and projects at work. But learning things on our own time is also very valuable. Side projects give us an opportunity to delve into technologies that we enjoy and technologies that are cutting edge, if unproven. 
+
+Doing projects just for fun or contributing to open source projects can be very valuable to our skills sets. It gives us an opportunity to work with tools and technologies that are outside of our comfort zones.
+
+Often times, when an opportunity arises, there isn't time to learn a new technology on the spot. We need to be ready in advance. Or sometimes we may miss an opportunity to utilize the best tools if we are not aware of them.  
+
+
+## Learning ##
+The road to preparedness is learning, a subject that Woz visits repeatedly in the book. One idea that I was impressed with was when he stressed the importance of leaning gradually, "one tiny little step at a time". There is no shortcut to mastery. You must pay your dues at each step. Talking about some of the early projects he did, Woz says "I learned to … concentrate on the step I was on and to try to do it as perfectly as I could when I was doing it." To really learn something you can't just skip to the end, you have to "do the in between steps." He also says "You can't teach somebody two cognitive steps from where there are." The corollary being that we can't teach ourselves something two steps from where we are.
+
+Woz learned both by reading and by doing. We should do the same. We should be reading about topics that are just beyond our current skill set. And we should be dabbling in projects that push us a bit further than we have ever gone before.
