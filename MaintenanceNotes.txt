@@ -1,0 +1,7 @@
+# Images #
+
+* the image links look like this: 
+[![](/img/posts/iTunes-Rating-Device/front.web.jpg)](/img/posts/iTunes-Rating-Device/front.web.jpg)
+
+* the size of the image for the main page is 170 x 256
+* the size of the images in the body is 670 x 445

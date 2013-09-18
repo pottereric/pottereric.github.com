@@ -20,6 +20,8 @@ When working on Arduino projects, it is often necessary to plug and unplug the U
 
 To make this process more pleasant, I wanted a way that I could disconnect a USB connection with a switch. I figured that if I used a double pole, quadruple throw switch, I could virtually unplug the USB cable.
 
+[![](/img/posts/USB-Switch-Cable/WideSide.Web.jpg)](/img/posts/USB-Switch-Cable/WideSide.Web.jpg)
+
 # The Build #
 
 The construction was really quite simple. I had the switch left over from some previous project. The female end actually came out of a printer that I disassembled. The male end of the cable was from an extra USB cable, which are easy to come by.
@@ -28,11 +30,13 @@ I cut the cables and exposed the wires. Using a multi-meter, I figured out which
 
 A Tic-Tac case was just about the perfect size. I used a utility knife to carefully cut out the holes that I needed. Then I riveted the switch and the female connector to the case. 
 
+[![](/img/posts/USB-Switch-Cable/ThinSide.web.jpg)](/img/posts/USB-Switch-Cable/ThinSide.web.jpg)
+
 # Results #
 
 The cable works as expected and is very useful for Digispark projects. It is also useful for projects where the Arduino simulates a keyboard or a mouse. The build could have been prettier if I hadn't only used parts I had laying around.
 
 At the end of the day, it is a quick, cheap and easy project. Most importantly, it is useful.
 
-
+[![](/img/posts/USB-Switch-Cable/Bottom.Web.jpg)](/img/posts/USB-Switch-Cable/Bottom.Web.jpg)
 
