@@ -5,7 +5,7 @@ layout: post
 slug: Getting-Started-With-ScriptCS-Arduino
 title: Getting started with ScriptCS-Arduino
 summary: 'Getting started with ScriptCS-Arduino'
-image: 'Getting-Started-With-ScriptCS-Arduino\Arduino.jpg'
+image: 'Getting-Started-With-ScriptCS-Arduino\ArduinoUno.jpg'
 tags:
 - ScriptCS
 - Arduino
