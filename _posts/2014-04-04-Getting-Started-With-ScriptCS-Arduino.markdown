@@ -5,7 +5,7 @@ layout: post
 slug: Getting-Started-With-ScriptCS-Arduino
 title: Getting started with ScriptCS-Arduino
 summary: 'Getting started with ScriptCS-Arduino'
-image: 'the-joy-of-making-things\RainBarrel.jpg'
+image: 'Getting-Started-With-ScriptCS-Arduino\Arduino.jpg'
 tags:
 - ScriptCS
 - Arduino
@@ -23,9 +23,9 @@ Enter [ScriptCS-Arduino](https://github.com/luisrudge/scriptcs-arduino ). This f
 
 The execution model with ScriptCS-Arduino is different from standard Arduino programming. Normally, you would write all of your Arduino code in the Arduino IDE and write it to the Arduino board. With ScriptCS-Arduino, you use the Arduino IDE to load the Firmata code onto the Arduino and you do the rest with ScriptCS. Essentially, the Arduino board becomes a slave board. All of the important code runs on the PC.
 
-## Getting Started 
+## Installing the Software
 
-In this post, I'm gonig to show you how to get started with ScriptCS-Arduino, specifically on Windows PC. The first thing you need to do in order to use ScriptCS-Arduino is to install ScriptCS. The full details are available at [http://scriptcs.net/](http://scriptcs.net/). But if you have [Chocolatey](http://chocolatey.org/) installed, you only need to use the following command. (If you don't have Chocolatey installed, you should check it out. It is very useful.)
+In this post, I'm going to show you how to get started with ScriptCS-Arduino, specifically on Windows PC. The first thing you need to do in order to use ScriptCS-Arduino is to install ScriptCS. The full details are available at [http://scriptcs.net/](http://scriptcs.net/). But if you have [Chocolatey](http://chocolatey.org/) installed, you only need to use the following command. (If you don't have Chocolatey installed, you should check it out. It is very useful.)
 
     cinst scriptcs
 
@@ -39,16 +39,28 @@ Or you can get it from the [Arduino software page](http://www.arduino.cc/en/Main
 
 Load this software onto your Arduino. Make sure you have the right board and Serial Port selected in the Tools menu. Then click the Upload button.
 
-Next you need to setup ScriptCS. One of the most powerful things about ScriptCS is that it is fully integrated with NuGet. The means that you can easily install ScriptCS-Arduino Nuget Package. In your cammnd shell of choice naviagate to a directory where you want to work. Type the following command. 
+Next you need to setup ScriptCS. One of the most powerful things about ScriptCS is that it is fully integrated with NuGet. The means that you can easily install ScriptCS-Arduino NuGet Package. ScriptCS-Arduino is a NuGet package specially designed for ScriptCS called a ScriptPack In your command shell of choice navigate to a directory where you want to work. Type the following command. 
 
     scriptcs -install scriptcs.arduino
 
-This will install the NuGet package in your current directory. 
+This will install the NuGet package in your current directory. ScriptCS executes .csx files. Your .csx files in this directory can use the NuGet package you just downloaded. Here is a simple example of .csx file using ScriptCS-Arduino. It simply blinks and LED, which is basically the hello world of Arduino programming.
 
-
-TODO
+# Writing the Code
 
 <script src="https://gist.github.com/pottereric/9978841.js"></script>
 
-TODO
+This script assumes that there is an LED with it's anode (positive side) connected to pin 9 on the Arduino and it's cathode (negative side) connected to ground.
+
+Line 1 of the code imports the ScriptCS-Arduino ScriptPack. Line 2 creates an object that represents the Arduino board. Line 4 creates an instance of the Led class. The Led class is part of the ScriptCS-Arduino ScriptPack. It simplifies the code necessary to control an Led. Lines 6 through 9 dictate that the LED blink for 2 seconds and then stop. Line 11 cleans up all of the resources.
+
+# Possibilities
+
+This example is trivial and it could have been done entirely in the Arduino IDE. But ScriptCS-
+Arduino opens up a host of great possibilities. The biggest opportunity is that you could integrate your Arduino into projects on your PC. For example, instead of just randomly blinking and LED for 2 seconds, you could run the script as a part of your build process and blink a red LED if there is a build failure and green LED if it succeeded. Because of the power of Arduino, you are not limited to LEDs. You could sound and alarm, spin something, or even fire a Nerf gun. The possibilities are nearly endless.
+
+Another fantastic thing about ScriptCS-Arduino is that it allows you to prototype things very quickly. You can write little a script to try out just about any behavior of the Arduino. For those of us who know C#, it makes it faster to be working in a familiar language. You can use the ScriptCS REPL to make your Arduino exploration even more flexible. I'll explore this topic more in a future blog post.
+
+# Get Started
+
+You now know enough to get started. Use your imagination. Building something cool. Have some fun!
 
