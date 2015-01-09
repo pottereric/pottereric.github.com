@@ -10,23 +10,23 @@ tags:
 - Arduino
 ---
 
-TODO
+There are plethora of microcontrollers available today. If you want to write your microcontroller code in C#, you have a couple of options. 
 
-1
+First lets look at how a standard Arduino works today. Standard Arduinos like the Arduino UNO are programmed from a computer. Once the code is loaded, they are fully autonomous from the computer. The Arduino has it's own processor and storage, so it doesn't need the computer to run.
 
 [![](/img/posts/CSharp-and-Microcontrollers/Standard.jpg)](/img/posts/CSharp-and-Microcontrollers/Standard.jpg)
 
-2
+There is an open source IDE for Arduino that runs on your laptop. The code that write is in C. (Technically it is Processing, but it is very close to C.) 
 
 [![](/img/posts/CSharp-and-Microcontrollers/Standard C.jpg)](/img/posts/CSharp-and-Microcontrollers/Standard C.jpg)
 
 
-3
+There is another board that you can purchase called the Netduino. It is more powerful and more expensive than an Arduino. 
 
 [![](/img/posts/CSharp-and-Microcontrollers/PCNetduino.jpg)](/img/posts/CSharp-and-Microcontrollers/PCNetduino.jpg)
 
 
-4
+The code you write for the Netduino is C# and you use Visual Studio as the IDE. The Netduino has a processor that is powerful enough to run the .Net Micro Framework. So the code you write executes write on the Netduino. 
 
 [![](/img/posts/CSharp-and-Microcontrollers/PCNetduino CSharp.jpg)](/img/posts/CSharp-and-Microcontrollers/PCNetduino CSharp.jpg)
 
