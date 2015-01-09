@@ -31,14 +31,13 @@ The code you write for the Netduino is C# and you use Visual Studio as the IDE. 
 [![](/img/posts/CSharp-and-Microcontrollers/PCNetduino CSharp.jpg)](/img/posts/CSharp-and-Microcontrollers/PCNetduino CSharp.jpg)
 
 
-5
+If you want to write C# code that works with an Arduino, you can use the ScriptCS Arduino library. In this case, you write CS code that executes on the computer that controls the Arduino. The Arduino must have a USB connection back to the computer as as the code executes. 
 
 [![](/img/posts/CSharp-and-Microcontrollers/ScriptCS.jpg)](/img/posts/CSharp-and-Microcontrollers/ScriptCS.jpg)
 
 
-6
+You load a program on the Arduino called Firmata. It comes as one of the examples with the Arduino IDE. Once this is done, you can write C# code that executes in ScriptCS. Your C# code sends commands to the Arduino via the USB connection.
 
 [![](/img/posts/CSharp-and-Microcontrollers/ScriptCS Firmata.jpg)](/img/posts/CSharp-and-Microcontrollers/ScriptCS Firmata.jpg)
 
 
-7
