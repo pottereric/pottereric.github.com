@@ -18,17 +18,17 @@ To make it faster, I ordered a 24V Solenoid from Adafruit. I had a AC adapter th
 
 To make it more interactive, I started controlling the Arduino with the [ScriptCS-Arduino](http://www.humbletoolsmith.com/2014/04/04/Getting-Started-With-ScriptCS-Arduino/) library. This made it controllable from my laptop.
 
-A few weeks later, I came across an old 5 disk CD changer. I took out most of the electronics and soldered longer wires onto the motor that spins the tray. I wired the motor up to the 24V source I was using for the solenoid and controlled that with another TIP120.
+A few weeks later, I came across an old 5 disk CD changer. I decided to use this to rotate the gun horizontally, allowing me to aim it in different directions. I took out most of the electronics and soldered longer wires onto the motor that spins the tray. I wired the motor up to the 24V source I was using for the solenoid and controlled that with another TIP120.
 
 [![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Circuit.png)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Circuit.png)
 
-In the original version, the wires went straight from the Arduino up to the solenoid. The was functional, but it meant that if I spun it around too much, the wires would get twisted or unplugged. This got old after a few weeks.
+In the original version, the wires went straight from the Arduino up to the solenoid. This was functional, but it meant that if I spun it around too much, the wires would get twisted or unplugged. This got old after a few weeks.
 
 I decided that I wanted the gun to spin freely, but I needed away to get the control voltage up to the solenoid. Inspired by Ben Heck's [Steampunk Persistence of Vision Display](https://www.youtube.com/watch?v=1reDoTu6L5w "Steampunk Persistence of Vision Display"), I mounted two metal rings on the bottom of the CD tray.
 
 [![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/rings.JPG)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/rings.JPG)
 
-On the base, I mounted to spring mounted contacts that would create a connection to the rings above. The allows the circuit to be complete no matter what position the CD tray was in. If I had a 3D printer like Ben Heck, the build would have been much cleaner.
+On the base, I mounted to spring mounted contacts that would create a connection to the rings above. The allows the circuit to be complete no matter what position the CD tray is in. If I had a 3D printer like Ben Heck, the build would have been much cleaner.
 
 [![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/contacts.JPG)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/contacts.JPG)
 
@@ -36,7 +36,7 @@ Over time, I continued to make improvements. I got a prototyping shield for the 
 
 [![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Arduino.JPG)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Arduino.JPG)
 
-One problem that I had was that the motor drove the CD tray with a rubber band. If I put the full 24V on the motor immediately, the band would often slip. So what I decided to do was use the PWM functionality of ScriptCS-Arduino to spin the motor slowly at first and then accelerate. The made the motor spin much more reliably. 
+One problem that I encountered was that the motor drove the CD tray with a rubber band. If I put the full 24V on the motor immediately, the band would often slip. So what I decided to do was use the PWM functionality of ScriptCS-Arduino to spin the motor slowly at first and then accelerate. The made the motor spin much more reliably. 
 
 <script src="https://gist.github.com/pottereric/a95a3f9925e28bab72fb.js"></script>
 
