@@ -10,7 +10,7 @@ tags:
 - Arduino
 ---
 
-[![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Full.JPG)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Full.JPG)
+[![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Top.JPG)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Top.JPG)
 
 One night I was hanging out with my sons. We were talking about robotics and one of them asked if I could build a robot that would fire a Nerf gun. So we started out with a bunch of parts I had on hand to see if we could do it. I mounted the Nerf gun to a piece of peg board and then set out to see what I had that could pull the trigger. My first attempt was to use a motor that was geared way down to pull back a string that was attached to the trigger. I used an Arduino with a motor sheild to control the motor. That worked but it was slow. Since the boys were bored with a Nerf gun that took 5 seconds to fire, we called it a night.
 
