@@ -5,3 +5,5 @@
 
 * the size of the image for the main page is 170 x 256
 * the size of the images in the body is 670 x 445
+
+The file names in the links are case sensitive.

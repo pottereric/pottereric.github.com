@@ -10,7 +10,7 @@ tags:
 - Arduino
 ---
 
-[![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Full.jpg)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Full.jpg)
+[![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Full.JPG)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/Full.JPG)
 
 One night I was hanging out with my sons. We were talking about robotics and one of them asked if I could build a robot that would fire a Nerf gun. So we started out with a bunch of parts I had on hand to see if we could do it. I mounted the Nerf gun to a piece of peg board and then set out to see what I had that could pull the trigger. My first attempt was to use a motor that was geared way down to pull back a string that was attached to the trigger. I used an Arduino with a motor sheild to control the motor. That worked but it was slow. Since the boys were bored with a Nerf gun that took 5 seconds to fire, we called it a night.
 
@@ -26,11 +26,11 @@ In the original version, the wires went straight from the Arduino up to the sole
 
 I decided that I wanted the gun to spin freely, but I needed away to get the control voltage up to the solenoid. Inspired by Ben Heck's [Steampunk Persistence of Vision Display](https://www.youtube.com/watch?v=1reDoTu6L5w "Steampunk Persistence of Vision Display"), I mounted two metal rings on the bottom of the CD tray.
 
-[![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/rings.jpg)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/rings.jpg)
+[![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/rings.JPG)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/rings.JPG)
 
 On the base, I mounted to spring mounted contacts that would create a connection to the rings above. The allows the circuit to be complete no matter what position the CD tray was in. If I had a 3D printer like Ben Heck, the build would have been much cleaner.
 
-[![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/contacts.jpg)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/contacts.jpg)
+[![](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/contacts.JPG)](/img/posts/ScriptCS-Arduino-controlled-nerf-gun/contacts.JPG)
 
 Over time, I continued to make improvements. I got a prototyping shield for the circuit. I got some standoffs and mounted the whole thing under the CD tray.
 
