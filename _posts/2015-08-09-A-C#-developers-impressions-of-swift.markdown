@@ -5,7 +5,7 @@ layout: post
 slug: C# Developer's Impression of Swift
 title: C# Developer's Impression of Swift
 summary: 'My First Impressions of the programming in Swift'
-image: 'A-C#-developers-impressions-of-swift\code.png'
+image: 'impressions-of-swift\code.png'
 tags:
 - C#
 - swift
@@ -62,9 +62,9 @@ Another thing to note from this solution is that types are always declared with 
 
 As I mentioned before, Swift has functional elements. One of the hallmarks of functional languages is that they have functions as first class elements. So functions can be assigned to variables and passed as arguments to other functions. 
 
-One of the variations on FizzBuzz is to return Fizz or Buzz if for numbers that contain 3 or 5 instead of being multiples of 3 or 5. Another variation is to parameterize which numbers to check for instead of hard coding 3 and 5 and paramaterizing the words instead of hard coding Fizz and Buzz. 
+One of the variations on FizzBuzz is to return Fizz or Buzz for numbers that contain 3 or 5 instead of being multiples of 3 or 5. Another variation is to parameterize which numbers to check for instead of hard coding 3 and 5 and paramaterizing the words instead of hard coding Fizz and Buzz. 
 
-In this solution I support both of those cases by passing in the text to return and passing in anonymous functions to check the numeric values. Swift calls these types of functions closures. I updated the primary method to accept two closures to be used to find the target values. Those same closures are passed to the method named IsFizzBuzz which is where the actual check is done.
+In this solution I support both of those cases by passing in the text to return and passing in anonymous functions to check the numeric values. Swift calls these types of functions closures. I updated ListFizzBuzzResults to accept two closures to be used to find the target values. Those same closures are passed to the method named IsFizzBuzz which is where the actual check is done.
 
 This allows me to control how the program executes by passing different closures to ListFizzBuzzResults. On line 25 I declare and pass closures that check for multiples of three and multiples of five respectively. On line 28 I declare and pass closures that check for values containing 3 or 5. I can have either functionality simply by changing one line. I could easily have some combination of the two cases as well.
 
@@ -74,7 +74,7 @@ To make this solution follow the functional paradigm, I also changed line 8 from
 
 ## Overall Impressions ##
 
-Having only spent a few days with it, I really enjoyed the Swift language. The syntax is terse, but sensible. It has many of the features of the most modern languages without felling entirely foreign. I allowed me to mix some functional features into object oriented code. 
+Having only spent a few days with it, I really enjoyed the Swift language. The syntax is terse, but sensible. It has many of the features of the most modern languages without felling entirely foreign. It allowed me to mix some functional features into object oriented code. 
 
 I suppose the highest praise that I can give it is that I hope to write more of it in the future. 
 
