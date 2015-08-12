@@ -5,7 +5,7 @@ layout: post
 slug: C# Developer's Impression of Swift
 title: C# Developer's Impression of Swift
 summary: 'My First Impressions of the programming in Swift'
-image: 'the-joy-of-making-things\RainBarrel.jpg'
+image: 'A-C#-developers-impressions-of-swift\code.png'
 tags:
 - C#
 - swift
