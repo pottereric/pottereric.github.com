@@ -15,6 +15,9 @@ author:
     twitter: pottereric
     gravatar: https://www.gravatar.com/avatar/5419f3f5fec50cfcfd0c7d4a18ae25ca.png
 
+gems:
+  - jekyll-feed
+
 comments:
     provider: disqus
     disqus:
