@@ -51,7 +51,7 @@ Let's start by looking at the method that uses the long hand way to increment a 
 
 Lines 3 - 6 allocate space for the variables. Lines 10 and 11 perform the assignment into the "a" variable by pushing 10 onto the stack and then popping it off the stack into "a". Lines 12 - 14 perform the addition by pushing "a" and 1 onto the stack and then adding them. Line 15 pops the sum off the stack into "b". Lines 16 - 21 return the value from "b".
 
-The code illustrates how the stack is used in IL to assign values and perform arithmetic.It is not equivalent to using a unary increment operator because the value of "a" is not altered. So let's look at the code that uses the prefix form of the increment operator.   
+The code illustrates how the stack is used in IL to assign values and perform arithmetic. The code is not equivalent to using a unary increment operator because the value of "a" is not altered. So let's look at the code that uses the prefix form of the increment operator.   
 
 [![](/img/posts/Increment-and-Decrement-Deep-Dive/Prefix.jpg)](/img/posts/Increment-and-Decrement-Deep-Dive/Prefix.jpg)
 
