@@ -3,8 +3,8 @@ comments: true
 date: 2015-12-08 14:30:00
 layout: post
 slug: increment-and-decrement-deep-dive
-title: Increment and Decrement Deep Dive
-summary: 'A detailed look at the differences between the increment and decrement operators.'
+title: Prefix and Postfix Increment Deep Dive
+summary: 'A detailed look at the differences between the prefix and postfix increment operators.'
 image: 'Increment-and-Decrement-Deep-Dive\link.jpg'
 tags:
 - C#
