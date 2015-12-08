@@ -12,7 +12,7 @@ tags:
 
 
 
-Recently a read a blog post by Eric Lippert about the top ten things he wished had been designed differently for C#. If you have not read it, [you can find it here.](http://www.informit.com/articles/article.aspx?p=2425867) It is worth reading in its entirety. The section that got me thinking was "#3: I rate plus-plus a minus-minus". In it, he makes some very solid points about dislike of the increment and decrement operators.  Firstly he points out that the increment operator can easily be replaced with "x += 1;". More importantly, he shows that the increment operator has two purposes, to return a value and alter the value of the variable. So by it's very definition, the expression has a side effect. 
+Recently a read a blog post by Eric Lippert about the top ten things he wished had been designed differently for C#. If you have not read it, [you can find it here.](http://www.informit.com/articles/article.aspx?p=2425867) It is worth reading in its entirety. The section that got me thinking was "#3: I rate plus-plus a minus-minus". In it, he makes some very solid points about his dislike of the increment and decrement operators.  Firstly he points out that the increment operator can easily be replaced with "x += 1;". More importantly, he shows that the increment operator has two purposes, to return a value and alter the value of the variable. So by it's very definition, the expression has a side effect. 
 
 But the following statement is the one that grabbed my attention. 
 
@@ -33,7 +33,7 @@ So what he is saying is that both the increment and decrement operators do the a
 
 <script src="https://gist.github.com/pottereric/34337593ab90dc55afac.js"></script>
 
-The first method does some simple addition. It serves as a benchmark for understanding what is happening in the IL. The next two methods exercise the unary increment and decrement operators respectively and assign the resulting value a different variable.
+The first method does some simple addition. It serves as a benchmark for understanding what is happening in the IL. The next two methods exercise the prefix and postfix unary increment operators respectively and assign the resulting value a different variable.
 
 ##Understanding IL##
 
@@ -41,25 +41,25 @@ In order to understand what is happening when the code executes, you need to und
 
 IL is a stack based language. In order to do any operations or assignments, values must be moved from registers to the stack. Addition is done on the stack. Assignment is done by pushing a value onto the stack and then popping it off the stack into a different variable. I admit I am not an IL expert. Much of what I know about IL comes from [this Wikipedia page](https://en.wikipedia.org/wiki/List_of_CIL_instructions). 
 
-So I took the code I wrote, listed above. I compiled it in Visual Studio. Then I used Telerik's Just Decompile to view the IL it generated. It is important to note here that I compiled the code in the Debug configuration so that no compiler optimizations would be used. If I had compiled in the Release configuration, these methods would have been optimized down to a single returned value.
+So I took the code I wrote, listed above, and compiled it in Visual Studio. Then I used Telerik's Just Decompile to view the IL it generated. It is important to note here that I compiled the code in the Debug configuration so that no compiler optimizations would be used. If I had compiled in the Release configuration, these methods would have been optimized down to a single returned value.
 
 ##Examining the Code##
 
 Let's start by looking at the method that uses the long hand way to increment a number. 
 
-[![](/img/posts/Increment-and-Decrement-Deep-Dive/LogFormIncrementInAssignment.JPG)](/img/posts/Increment-and-Decrement-Deep-Dive/LogFormIncrementInAssignment.JPG)
+[![](/img/posts/Increment-and-Decrement-Deep-Dive/LogFormIncrementInAssignment.jpg)](/img/posts/Increment-and-Decrement-Deep-Dive/LogFormIncrementInAssignment.jpg)
 
 Lines 3 - 6 allocate space for the variables. Lines 10 and 11 perform the assignment into the "a" variable by pushing 10 onto the stack and then popping it off the stack into "a". Lines 12 - 14 perform the addition by pushing "a" and 1 onto the stack and then adding them. Line 15 pops the sum off the stack into "b". Lines 16 - 21 return the value from "b".
 
 The code illustrates how the stack is used in IL to assign values and perform arithmetic.It is not equivalent to using a unary increment operator because the value of "a" is not altered. So let's look at the code that uses the prefix form of the increment operator.   
 
-[![](/img/posts/Increment-and-Decrement-Deep-Dive/Prefix.JPG)](/img/posts/Increment-and-Decrement-Deep-Dive/Prefix.JPG)
+[![](/img/posts/Increment-and-Decrement-Deep-Dive/Prefix.jpg)](/img/posts/Increment-and-Decrement-Deep-Dive/Prefix.jpg)
 
 Lines 11 - 16 perform the addition. But the result is not stored in "b", the result is stored in a temporary variable named "V_2". Lines 17 - 20 assign the value from "V_2" into "a" and "b". This illustrates where my misunderstanding came from. I assumed the assignment into "b" was done directly from "a", but it is not. 
 
 Here is the code for the postfix form of the operator. 
 
-[![](/img/posts/Increment-and-Decrement-Deep-Dive/PostFix.JPG)](/img/posts/Increment-and-Decrement-Deep-Dive/PostFix.JPG)
+[![](/img/posts/Increment-and-Decrement-Deep-Dive/PostFix.jpg)](/img/posts/Increment-and-Decrement-Deep-Dive/PostFix.jpg)
 
 Lines 11 - 14 store the value ten into "a" and "V_2". Lines 15 - 18 perform the addition and store the result into "a". Lines 19 - 20 assign the value from "V_2" into "b". 
 
