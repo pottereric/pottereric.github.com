@@ -7,7 +7,7 @@ title: Validating List Sorting with Canopy
 summary: 'Validating List Sorting with Canopy'
 image: 'Validating-List-Sorting-with-Canopy\canopylink.jpg'
 tags:
-- canopy
+- Canopy
 - F#
 ---
 
