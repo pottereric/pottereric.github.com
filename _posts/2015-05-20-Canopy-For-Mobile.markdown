@@ -7,7 +7,7 @@ title: Using Canopy To Test Responsive Design
 summary: 'Using Canopy To Test Responsive Design'
 image: 'Canopy-For-Mobile\canopylink.jpg'
 tags:
-- Canopy
+- canopy
 - 
 ---
 
