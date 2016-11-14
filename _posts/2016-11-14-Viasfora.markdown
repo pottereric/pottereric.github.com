@@ -3,8 +3,8 @@ comments: true
 date: 2016-11-14 14:30:00
 layout: post
 slug: Viasfora
-title: Viasfora
-summary: 'A look at the Viasfora extension'
+title: Improve Code Readability with Viasfora 
+summary: 'A look at the Viasfora extension to Visual Studio'
 image: 'Viasfora\Leader.png'
 tags:
 - Extensions
