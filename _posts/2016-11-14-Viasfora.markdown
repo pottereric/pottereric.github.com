@@ -1,0 +1,32 @@
+---
+comments: true
+date: 2016-11-14 14:30:00
+layout: post
+slug: Viasfora
+title: Viasfora
+summary: 'A look at the Viasfora extension'
+image: 'Viasfora\Leader.png'
+tags:
+- Extensions
+---
+
+I can remember the first time I wrote code in an editor with syntax highlighting. It seemed to make the code so much more readable. Instead of looking at a wall of black and white text, I was getting visual cues about what was going on. The thing that I love about the Viasfora extension for Visual Studio is that it takes this concept to the next level. 
+
+Viasfora simply adds color to source files to give you more clues about what is happening. The color is subtle. It doesn't make you code look like a Jackson Pollock painting. It simply gives you more glanceable information about the structure of the code.
+
+Here is a comparison of what a chunk of C# code looks like with Viasfora (on the left) and without it. 
+
+[![](/img/posts/Viasfora/ViasforaComparison.png)](/img/posts/Viasfora/ViasforaComparison.png)
+
+The first thing you notice is that the access modifier is gray. So in this case, "public" is not the same blue as the rest of the keywords.
+
+Secondly, flow-control keywords are displayed in red-orange, making them stand out. In this case, "foreach" gets your attention right away.
+
+Thirdly, all of the braces and brackets are colorized so that matching pairs also match in color. This is featured is called 'Rainbow braces'. In this example, the purple braces match each other. The orange parentheses match the orange parentheses and the red parentheses match each other. In my mind, this is the killer feature of Viasfora. It makes it much easier to quickly see where the block begins and ends. This is especially when you have multiple closing parentheses in a row. It is quickly obvious where parentheses are missing as well. 
+
+Viasfora also does a good job of being configurable, all of the features I mentioned can be turned on and off. Each of the colors can be configured. It also supports a range of different languages, including JavaScript and F#. 
+
+There are other features that I haven't mention that you can read about on [Visfora.com](http://viasfora.com/). You can get it on [their page in the Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/19609469-380e-4fcf-bcde-e31caeb658b2) or through the Extensions and Updates menu inside Visual Studio. 
+
+I highly recommend this extension, it gives you additional functionality without ever getting in your way or slowing you down.
+

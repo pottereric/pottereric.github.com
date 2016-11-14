@@ -7,7 +7,7 @@ title: Visual Studio Extensions
 summary: 'The purpose and benefits of Visual Studio extensions'
 image: 'Visual-Studio-Extensions\Leader.png'
 tags:
-- extensions
+- Extensions
 ---
 
 As a developer who primarily creates web applications on the .Net stack, I spend a lot of time in Visual Studio. For smaller edits, I’ll use tools like Visual Studio Code of gVim. But most of the time I want to be able to take full advantage of the full array of tools Visual Studio provides. Whether I am creating projects, editing files, or debugging code, Visual Studio offers an unmatched feature set. But as many features as it offers, it doesn’t have everything I want. That is where extensions come in. 
