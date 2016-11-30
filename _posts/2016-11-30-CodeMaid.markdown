@@ -1,0 +1,25 @@
+---
+comments: true
+date: 2016-11-30 14:30:00
+layout: post
+slug: CodeMaid
+title: Clean Code Faster with CodeMaid
+summary: 'A look at the CodeMaid extension to Visual Studio'
+image: 'CodeMaid\Leader.png'
+tags:
+- Extensions
+---
+
+If you have been writing software for any length of time, you have almost certainly found yourself staring at a source file where you have made a mess. It had been nice and organized, but then you needed to add a feature. you wrote your tests and implemented the code. Your application is running as fast and smooth as a BMW on the Autobahn. But all of your changes have left the code as disheveled as the hair of a teenager just getting out of bed.
+
+You need to go back through and format the code, remove the extra blank lines, and so on. This would be time-consuming to do by hand. This is where the Visual Studio extension named CodeMaid comes in. It removes unnecessary blank lines, removes end of line whitespace, runs the Visual Studio formatter, and other things that improve your code. 
+
+It also gives you a new visualization of the source file in the CodeMaid Spade tool. One of the nicest features of CodeMaid is that this tool allows you to drag a drop members within the source file. This allows you to quickly arrange the methods, properties, and fields into an order that makes sense. 
+
+In this gif, you can see that by dragging and dropping a property in CodeMaid Spade, the property is moved in the code file. This works for functions as well. 
+
+[![](/img/posts/CodeMaid/ReorderingProperties.gif)](/img/posts/CodeMaid/ReorderingProperties.gif)
+
+In the interest of full disclosure, I should say that the author of this tool, codecadwallader, is a long time friend of mine. That certainly makes me look at the tool through rose colored glasses. However, I have been using this tool ever since it was created about 10 years ago and I have benefited from it time and time again.
+
+There are a large number of other things CodeMaid can do to clean your code. You can see the on the [CodeMaid site](http://www.codemaid.net/). But the greatness of CodeMaid doesn't come from it's large number of features, it is that it does one thing really well, that is it cleans your code. And that is something that we all end up doing on a regular basis.  
