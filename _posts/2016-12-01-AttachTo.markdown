@@ -1,0 +1,28 @@
+---
+comments: true
+date: 2016-12-01 14:30:00
+layout: post
+slug: CodeMaid
+title: AttachTo and the Art of Doing One Thing Well
+summary: 'Some Visual Studio Extensions are like drywall saws.'
+image: 'AttachTo\Leader.jpg'
+tags:
+- Extensions
+---
+
+
+[![](/img/posts/AttachTo/DrywallSaw.jpg)](/img/posts/AttachTo/DrywallSaw.jpg)
+
+That is a drywall saw. You can't use it to measure a board. You can't use it so see if something is level. You can use it to remove a screw. You can't use it to drive in a nail, or at least not very efficiently. In fact, the only thing it does well is cutting drywall. It isn't a tool you use frequently. I've only used mine a handful of times. But when you need it, which is generally when you are hanging drywall and you need to make a hole for an electrical fixture, it is incredibly useful and effective. 
+
+Some Visual Studio extensions, such as [Viasfora](http://humbletoolsmith.com/2016/11/14/Viasfora/), are like screwdrivers. You use them all time on almost any kind of project. Extensions like [CodeMaid](http://humbletoolsmith.com/2016/11/30/CodeMaid/) are like a multi-tool. They have a large number of things they can do, so you end of using them very frequently. Some extensions are like drywall saws. They do one thing and they do it well. 
+
+AttachTo falls into this last category. The only thing it does is that it gives you menu options to attach to IIS, IIS Express, or NUnit. That is it.
+
+[![](/img/posts/AttachTo/AttachToMenuOptions.png)](/img/posts/AttachTo/AttachToMenuOptions.png)
+
+One of the situations that I work in on a regular basis is developing a class library that is used by a web application. So when I need to debug it, I need to attach to IIS or IIS Express. This can be done without the extension by clicking the 'Attach to Process' menu option and then selecting the processes for IIS. You will then have to confirm that you want to attach to these processes. When you have to do this repeatedly, it is much nicer to have a single menu option. 
+
+If you aren't working with drywall, you don't need a drywall saw. If you don't need to Attach to an IIS instance, don't install this plugin. But if you are like me, and you need it, you are going to love this thing. 
+
+What I would encourage you to do is browse the Visual Studio Extension gallery for tools that you would use. There are tons of tools out there and almost certainly one of them will make your development easier or faster. There very well maybe something that you do on a regular basis that could be automated or expedited. That is the beauty of the Visual Studio and Visual Studio Code Extension ecosystems. You can add features to meet you specific development needs. Some extensions have tons of features. Some have features you will use all the time. Some have one feature that you use occasionally. All of these kinds of extension make you development life better.
