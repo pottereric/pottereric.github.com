@@ -2,7 +2,7 @@
 comments: true
 date: 2016-12-01 14:30:00
 layout: post
-slug: CodeMaid
+slug: AttachTo
 title: AttachTo and the Art of Doing One Thing Well
 summary: 'Some Visual Studio Extensions are like drywall saws.'
 image: 'AttachTo\Leader.jpg'
