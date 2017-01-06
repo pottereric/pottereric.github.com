@@ -9,7 +9,7 @@ image: 'CodeMash17-Recomendations\header.png'
 tags:
 - Conferences
 ---
-One again, the content at CodeMash is going to be fantastic. There are great sessions all over the place. If you are attending, you will be like a blind dog in a butcher shop. Even if you don't know where to go, you will be getting good content. That be said it, can be hard to pick which sessions to attend. I'd like to offer some humble suggestions. But before I do that, I'd like to offer a few caveats. 
+One again, the content at CodeMash is going to be fantastic. There are great sessions all over the place. If you are attending, you will be like a blind dog in a butcher shop. Even if you don't know where to go, you will  find good content. That be said, it can be hard to pick which sessions to attend. I'd like to offer some humble suggestions. But before I do that, I'd like to offer a few caveats. 
 
 Caveat 1: 
 I am going to limit my suggestions to sessions that I have seen in some previous form. This means that I am skipping over a bunch of great sessions by great presenters because I haven't seen the content before. It also means that I am not going to mention sessions by the big name presenters like Jon Skeet, Cory House, Seth Juarez, or Jenifer Marsman. Their sessions would be worth seeing, but you probably already know that.
@@ -31,7 +31,7 @@ It goes without saying that JavaScript is a big deal. Hence it is important to k
 
 ## Soft Skills ##
 
-While I am most interest in the technical side of our profession, I know that the nontechnical side is just as important and CodeMash has sessions to help in the area too. Cassandra Farris will teach you about career growth in [Career Growth Questions You’re Afraid to Ask](https://www.codemash.org/session/career-growth-questions-youre-afraid-to-ask/) and Jay Harris will share about working in a team environment 
+While I am most interest in the technical side of our profession, I know that the nontechnical side is just as important and CodeMash has sessions to help in that area too. Cassandra Farris will teach you about career growth in [Career Growth Questions You’re Afraid to Ask](https://www.codemash.org/session/career-growth-questions-youre-afraid-to-ask/) and Jay Harris will share about working in a team environment 
 in [Make Donuts Great Again: The Tale of the Broken Build](https://www.codemash.org/session/make-donuts-great-again-the-tale-of-the-broken-build/). 
 
 ## .Net ##
