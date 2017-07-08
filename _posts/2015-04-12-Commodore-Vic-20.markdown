@@ -9,6 +9,7 @@ image: 'Commodore-Vic-20\FrontPageImg.jpg'
 tags:
 - fun
 - make
+- retro
 ---
 
 I stopped by the Salvation Army last weekend to make a donation. When I went into get a receipt, I noticed that they had a Commodore Vic-20 on the shelf. I've heard about this machine many times on the Hello World podcast and was instantly fascinated by it. When I realized it still had the original manuals with it, I bought it.
