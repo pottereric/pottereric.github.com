@@ -9,3 +9,6 @@
 The file names in the links are case sensitive.
 
 copy the tags from from pottereric.github.com/_site/tags to pottereirc.github.com/tags
+
+Creating simple links:
+[I'm an inline-style link](https://www.google.com)
