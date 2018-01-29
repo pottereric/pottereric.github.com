@@ -49,3 +49,12 @@ If you want to reset the database right before every test in a test context, you
 ## Conclusion
 
 I put together an exploratory project using Canopy and Respawn together. You can see it [here](https://github.com/pottereric/CanopyRespawnDemo). If you want to run it, you will need to clone the CrisisCheckin repo and run it locally. I was pleased with how smoothly the two libraries worked together. I was also pleased with how easy it was to use them to create integration tests that are repeatable and reliable.
+
+#### Update
+Chris Holt, the author of Canopy, gave me some great feedback. He pointed out that while cleaning the database makes some tests cases easier to write, there are also benefits to having a test suite that accumulates data. Tests suites that accumulate data can help you identify performance issues such as missing database indexes. If you want to have a large amount of data and still reset the database before a test run, you could use a tool that generates a massive amount of test data.
+
+He also pointed out that you couldn't use a tool like Respawn in a scenario where multiple people are testing against the same database because Respawn would nuke everyone's test data, not just yours.
+
+
+
+
