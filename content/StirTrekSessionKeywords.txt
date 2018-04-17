@@ -1,0 +1,156 @@
+session 31
+talk 19
+code 13
+way 10
+look 9
+developers 9
+time 9
+tools 8
+people 7
+ways 7
+process 6
+applications 5
+problems 5
+services 5
+goal 5
+attendees 5
+challenges 5
+world 5
+future 5
+things 5
+tricks 5
+application 4
+problem 4
+resources 4
+day 4
+solution 4
+customers 4
+techniques 4
+data 4
+teams 4
+changes 4
+years 4
+tips 4
+windows 3
+solutions 3
+projects 3
+idea 3
+knowledge 3
+browser 3
+google 3
+details 3
+company 3
+software 3
+processes 3
+pitfalls 3
+audience 3
+devops 3
+mind 3
+risk 3
+environment 3
+presentation 3
+infrastructure 3
+production 3
+strategies 3
+deployments 3
+hour 3
+confidence 3
+unit tests 3
+doughnuts 2
+healthier alternatives 2
+coffee 2
+development 2
+sql query 2
+deployment 2
+query plan 2
+query execution plan 2
+sql server database 2
+queries 2
+azure 2
+problematic behavior 2
+routing 2
+setup 2
+ideas 2
+ios 2
+language 2
+steps 2
+features 2
+microsoft 2
+productivity 2
+project 2
+lot of work 2
+office 2
+ibm 2
+api 2
+step 2
+mark 2
+times 2
+needs 2
+user experience 2
+software developers 2
+purpose 2
+firsthand experience 2
+real world examples 2
+benefits 2
+tech industry 2
+nonprofit 2
+community 2
+performance 2
+path 2
+scratch 2
+javascript 2
+web developers 2
+dependency injection 2
+results 2
+approach 2
+bugs 2
+quality 2
+words 2
+foundation 2
+help 2
+dependency 2
+discussion 2
+experience 2
+stage 2
+docker 2
+small changes 2
+advantage 2
+basics 2
+cloud 2
+platforms 2
+user 2
+concourse 2
+lunch 2
+context 2
+test-driven development 2
+regressions 2
+issues 2
+ui 2
+team 2
+ability 2
+companies 2
+learning 2
+python 2
+network 2
+journey 2
+text 2
+rest 2
+exploratory testing 2
+security 2
+owasp 2
+end 2
+different ways 2
+structure 2
+computer 2
+state 2
+complexity 2
+frameworks 2
+difference 2
+life 2
+devices 2
+difficulty 2
+real time 2
+designers 2
+fact 2
+developer 2
+
