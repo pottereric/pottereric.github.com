@@ -12,3 +12,5 @@ copy the tags from from pottereric.github.com/_site/tags to pottereirc.github.co
 
 Creating simple links:
 [I'm an inline-style link](https://www.google.com)
+
+I created a tool to scaffold out a blog post, called BlogPostScaffold.sln.
