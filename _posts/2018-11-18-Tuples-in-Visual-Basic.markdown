@@ -10,9 +10,9 @@ tags:
 - VBNet
 ---
 
-The new tuple syntax that was added to C# in C#7 has made my code cleaner and more expressive. It isn't a feature that I use every day. But when there are multiple values that need to be moved as a single unit, it is very nice. And it is a big upgrade over the older generic tuple that always had its members named Item1 and Item2. While the generic tuple was useful for creating lightweight groupings, it hurt the readability of the code when the items had to be referenced. The new tuples can have custom names, meaning you get the benefits of tuples without sacrificing readability.
+The new tuple syntax that was added to C# in C#7 has made my code cleaner and more expressive. It isn't a feature that I use every day. But when there are multiple values that need to be moved as a cohesive group, it is very nice. And it is a big upgrade over the older generic tuple that always had its members named Item1 and Item2. While the generic tuple was useful for creating lightweight groupings, it hurt the readability of the code when the items had to be referenced. The new tuples can have custom names, meaning you get the benefits of tuples without sacrificing readability.
 
-While I spend most of my professional development time in C#, I maintain multiple apps written in VB.Net. While the VB team has made a strategic decision to make their language more stable, they did add support for tuples in the most recent version. I used VB tuples for the first time recently and I am impressed with how clean the syntax is.
+While I spend most of my professional development time in C#, I maintain multiple apps written in VB.Net. While the VB team has made a [strategic decision](https://blogs.msdn.microsoft.com/dotnet/2017/02/01/the-net-language-strategy/) to make their language more stable, they did add support for tuples in the most recent version. I used VB tuples for the first time recently and I am impressed with how clean the syntax is.
 
 ### Declaring a Tuple ###
 To declare a tuple, all you need to do is wrap two or more values in parentheses. In the following example, the code on line 2 is creating a tuple containing 42 and 84. Using this syntax, the items are still named "Item1" and "Item2".
