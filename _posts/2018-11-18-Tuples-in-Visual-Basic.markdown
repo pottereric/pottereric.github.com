@@ -22,12 +22,12 @@ To declare a tuple, all you need to do is wrap two or more values in parentheses
 2
 3
 4
-5</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">Function</span> <span style="color: #0066BB; font-weight: bold">UseATuple</span>() <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>
+5</pre></td><td style="width: 100%;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">Function</span> <span style="color: #0066BB; font-weight: bold">UseATuple</span>() <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>
     <span style="color: #008800; font-weight: bold">Dim</span> pair <span style="color: #333333">=</span> (<span style="color: #0000DD; font-weight: bold">42</span>, <span style="color: #0000DD; font-weight: bold">84</span>)
 
     <span style="color: #008800; font-weight: bold">Return</span> pair.Item1
 <span style="color: #008800; font-weight: bold">End</span> <span style="color: #008800; font-weight: bold">Function</span>
-</pre></td></tr></table></div>
+</pre></td></tr></table></div><br/>
 
 The preferred way to declare tuples requires a bit more syntax, but it allows you to specify the names of the members. Using the colon equals syntax, line 2 is decalre a tuple with the same values as above, by now the items can be referenced with their identifiers, Magnitude and Direction. Line 4 uses one of the identifiers. The piece that you can't see in a code sample is that the Visual Studio Intellisense is aware of the identifiers and will list them as autocompletion options.
 
@@ -35,12 +35,12 @@ The preferred way to declare tuples requires a bit more syntax, but it allows yo
 2
 3
 4
-5</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">Function</span> <span style="color: #0066BB; font-weight: bold">UseANamedTuple</span>() <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>
+5</pre></td><td style="width: 100%;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">Function</span> <span style="color: #0066BB; font-weight: bold">UseANamedTuple</span>() <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>
     <span style="color: #008800; font-weight: bold">Dim</span> vector <span style="color: #333333">=</span> (Magnitude:<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">42</span>, Direction:<span style="color: #333333">=</span><span style="color: #0000DD; font-weight: bold">84</span>)
 
     <span style="color: #008800; font-weight: bold">Return</span> vector.Magnitude
 <span style="color: #008800; font-weight: bold">End</span> <span style="color: #008800; font-weight: bold">Function</span>
-</pre></td></tr></table></div>
+</pre></td></tr></table></div><br/>
 
 ### Passing Tuples ###
 
@@ -48,10 +48,10 @@ The most common use case for tuples is returning multiple values from a function
 
 <!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
 2
-3</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">Function</span> <span style="color: #0066BB; font-weight: bold">ReturnATuple</span>(value <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>) <span style="color: #000000; font-weight: bold">As</span> (passed <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Boolean</span>, result <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>)
+3</pre></td><td style="width: 100%;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">Function</span> <span style="color: #0066BB; font-weight: bold">ReturnATuple</span>(value <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>) <span style="color: #000000; font-weight: bold">As</span> (passed <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Boolean</span>, result <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>)
     <span style="color: #008800; font-weight: bold">Return</span> (<span style="color: #008800; font-weight: bold">True</span>, value)
 <span style="color: #008800; font-weight: bold">End</span> <span style="color: #008800; font-weight: bold">Function</span>
-</pre></td></tr></table></div>
+</pre></td></tr></table></div><br/>
 
 
 If you need to pass a tuple to a function, the syntax looks similar to the other cases. The tuple declaration is an parameter. The only difference is that you do have to specify an identifier for the tuple. 
@@ -62,7 +62,7 @@ If you need to pass a tuple to a function, the syntax looks similar to the other
 4
 5
 6
-7</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">Function</span> <span style="color: #0066BB; font-weight: bold">PassATuple</span>(pair <span style="color: #000000; font-weight: bold">As</span> (isValid <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Boolean</span>, value <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>)) <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>
+7</pre></td><td style="width: 100%;"><pre style="margin: 0; line-height: 125%"><span style="color: #008800; font-weight: bold">Function</span> <span style="color: #0066BB; font-weight: bold">PassATuple</span>(pair <span style="color: #000000; font-weight: bold">As</span> (isValid <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Boolean</span>, value <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>)) <span style="color: #000000; font-weight: bold">As</span> <span style="color: #333399; font-weight: bold">Integer</span>
     <span style="color: #008800; font-weight: bold">If</span> pair.isValid <span style="color: #008800; font-weight: bold">Then</span>
         <span style="color: #008800; font-weight: bold">Return</span> pair.value
     <span style="color: #008800; font-weight: bold">Else</span>
