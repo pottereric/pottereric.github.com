@@ -11,6 +11,9 @@ tags:
 - NDepend
 ---
 
+For the second year in a row, Matt Groves is coordinating the [C# Advent Calendar](https://crosscuttingconcerns.com/The-Second-Annual-C-Advent). It is a fantastic collection of posts on a wide variety of C# topics. I strongly encourage you to check out the other posts in series. For my entry, I wanted to take a look at the C# codebase behind the C# compiler.
+
+
 I've been fascinated with the Roslyn codebase ever since it was announced. With C# 8 now released in a preview state, I was curious to know how much C# code it took to update the compiler from C# 7.0 to 8.0. 
 
 I cloned the Roslyn repository to my local machine. Then I used NDepend to compare the current state of the master branch (as of 12/17/18) to the branch named 'dev15.0.x'. This is the branch that shipped with Visual Studio 15.0, better known as Visual Studio 2017. This should be the first released version of C# 7.0. It will be the baseline for my comparison. For this exercise, I wanted to focus on the compiler itself, so I only looked at three projects:
