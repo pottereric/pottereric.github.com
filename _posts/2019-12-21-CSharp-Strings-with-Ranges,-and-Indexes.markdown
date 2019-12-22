@@ -10,7 +10,9 @@ tags:
 - C#
 ---
 
-C# 8 introduced the ability to access subsets of collections with range operators. Frequently, ranges are used to access arrays or spans, but they can also be used to access the characters inside a string. 
+>  This blog post is part of Third C# Annual Advent organized by Matt Groves, Developer Advocate Couchbase and Microsoft MVP. Thanks to Matt for giving me an opportunity to participate again this year. You can follow the C# Advent [here](https://crosscuttingconcerns.com/). 
+
+C# 8 introduced the ability to access subsets of collections with range operators. Frequently, ranges are used to access arrays or spans, but they can also be used to access the characters inside a string. This can be especially useful if you know there are fixed length portions of text within the string you are manipulating. 
 
 For example, let's say that you wanted to get the first eight characters of a file name. You could use the Substring method on the string class. Or you could use a range operator to get the first eight characters. 
 
@@ -23,7 +25,7 @@ For example, let's say that you wanted to get the first eight characters of a fi
 <span style="color:yellowgreen;">}</span>
 </pre>
 
-Because the range starts at the beginning of the collection of characters in the string, the first 0 in the range is option. You could achieve the same this by leaving it out. 
+Because the range starts at the beginning of the collection of characters in the string, the first 0 in the range is optional. You could achieve the same this by leaving it out. 
 
 <pre style="font-family:InputMono;font-size:15px;color:gainsboro;background:#1e1e1e;"><span style="color:yellowgreen;">[</span><span style="color:#4ec9b0;">TestMethod</span><span style="color:yellowgreen;">]</span>
 <span style="color:#569cd6;">public</span>&nbsp;<span style="color:#569cd6;">void</span>&nbsp;<span style="font-weight:bold;color:#dcdcaa;">GetTheFirstEightCharactersOfAString_Shorter</span><span style="color:yellowgreen;">()</span>
@@ -78,3 +80,5 @@ Lets say that you have a string that is wrapped in curly braces and you only wan
 </pre>
 
 Using the range operators to access substring of strings doesn't radically shift the paradigm of your code. But it does make it easier to do some of the operations that we have to write on regular basis. If you have any good examples of how you have used ranges to work with strings, please let me know in the comments below. 
+
+It you want to play with the code from this post, you can find it [here](https://github.com/pottereric/CSharpStringsRangesAndIndexes).
