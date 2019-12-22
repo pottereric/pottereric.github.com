@@ -8,7 +8,7 @@ summary: 'Combining the condition with the assignment is the brilliance of patte
 image: 'pattern-matching-and-assignment\PatternMatchingFunnelLead.png'
 tags:
 - PatternMatching 
-- C#
+- CSharp
 ---
 
 I've been in love with pattern matching in C# since I first heard it was going to be added to the language. I had used it in F# and was excited to use it is C#. In a conversation I had this week I realized something important that I had known about pattern matching, but I had never articulated it. One of the most powerful things about pattern matching is that it cleanly combines a conditional statement and an assignment statement into a single line of code.

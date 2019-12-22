@@ -7,7 +7,7 @@ title: Visualizing Projects With NDepend
 summary: 'What can we learn about project structure with NDepend?'
 image: 'Visualizing-Projects-With-NDepend\lead.png'
 tags:
-- C#
+- CSharp
 - NDepend
 ---
 

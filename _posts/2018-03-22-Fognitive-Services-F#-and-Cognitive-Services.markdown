@@ -7,7 +7,7 @@ title: "Fognitive Services: F# and Azure Cognitive Services"
 summary: "Accessing Microsoft's powerful machine learning tools with an F# service call."
 image: 'Fognitive-Services-FSharp-and-Cognitive-Services/FognitiveServices.png'
 tags:
-- F#
+- FSharp
 - CognitiveServices
 - Canopy
 ---

@@ -10,7 +10,7 @@ tags:
 - fun
 - Nintaco
 - retro
-- C#
+- CSharp
 ---
 
 I have many fond memories of playing the original NES as a kid. So when I found out that someone had created an NES emulator that had an API, I was thrilled. The emulator I'm talking about is called [Nintaco](http://nintaco.com). And in this post I'll show you how to write a simple bot in C# that plays an NES game.

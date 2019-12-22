@@ -8,7 +8,7 @@ summary: "Building a web application to only show positive or negative stories f
 image: 'filtering-reddit-links-with-azure-cognitive-services-sentiment-analysis\lead.png' 
 tags:
 - CognitiveServices
-- F#
+- FSharp
 ---
 
 One of the fascinating capabilities of Azure Cognitive Services is the ability to get a sentiment score for a text string. The score is a numeric value between 0 and 1. Values closer to 1 indicate that the statement is conveying a positive sentiment. Values closer to 0 indicate a negative sentiment. 

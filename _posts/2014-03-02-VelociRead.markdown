@@ -8,7 +8,7 @@ summary: A project to for controlled speed reading.
 image: 'The-right-size-wrench\wrenches.thin.jpg'
 tags:
 - Arduino
-- C#
+- CSharp
 ---
 
 So I had this idea. I had been using speed reading sites like Spreeder and Spritz. I found it to be a very helpful way to get through my daily reading list.The only problem was that at times I wanted to vary the speed at which I was reading.

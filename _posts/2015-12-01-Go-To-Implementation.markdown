@@ -7,7 +7,7 @@ title: Go To Implementation
 summary: 'There is a great new feature in VS2015 Update 1.'
 image: 'Go-To-Implementation\link.png'
 tags:
-- C#
+- CSharp
 - Visual Studio
 ---
 

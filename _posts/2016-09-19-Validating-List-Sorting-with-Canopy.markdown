@@ -8,7 +8,7 @@ summary: 'Validating List Sorting with Canopy'
 image: 'Validating-List-Sorting-with-Canopy\canopylink.jpg'
 tags:
 - Canopy
-- F#
+- FSharp
 ---
 
 One of the things that F# is particularly good at is dealing with things as lists. So when I had a Canopy test that needed to verify the elements on a page were sorted correctly, I looked for a way to leverage F#'s strengths. I am primarily a C# developer, so my first instinct was to get the elements, loop through them and check the ordering. But after some digging I came up with this solution. 

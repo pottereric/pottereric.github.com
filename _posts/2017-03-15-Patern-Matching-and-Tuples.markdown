@@ -8,7 +8,7 @@ summary: 'Pattern Matching and Tuples'
 image: 'Benefits-of-Pattern-Matching\MainPage.jpg'
 tags:
 - PatternMatching
-- C#
+- CSharp
 ---
 
 As I discussed in my [previous post](http://humbletoolsmith.com/2017/03/05/Benefits-of-Pattern-Matching/), pattern matching in a new feature in C# 7.0 that provides a more sophisticated way to write selection statements. The situations where sophisticated selections statements more necessary is when selecting on multiple criteria. Often this is seen in other languages when matching against tuples. In an [older post](http://humbletoolsmith.com/2015/08/09/C-Developer's-Impression-of-Swift/), I looked at how Swift uses tuples and pattern matching and used the FizzBuzz problem as a solution. Since C# 7.0 also introduced a better syntax for tuples, I thought would be helpful to revisit the solution, this time in C#. 

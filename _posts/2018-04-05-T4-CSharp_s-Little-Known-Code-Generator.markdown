@@ -7,7 +7,7 @@ title: "T4: C#'s Little Known Code Generator"
 summary: "Generating Text Programmaticly"
 image: 't4-csharp_s-little-known-code-generator\lead.png' 
 tags:
-- C#
+- CSharp
 ---
 
 The thing that I want to talk about in this post is not something new. It is something that has been available to Visual Studio developers for a few years now. It is not something that I see many people using. But it is something that I find to be very useful. I am talking about T4 templates. 

@@ -7,7 +7,7 @@ title: "C# Strings with Ranges, and Indexes"
 summary: "Using the range and index operators to manipulate strings in C#8"
 image: 'csharp-strings-with-ranges,-and-indexes\lead.png' 
 tags:
-- C#
+- CSharp
 ---
 
 >  This blog post is part of Third C# Annual Advent organized by Matt Groves, Developer Advocate Couchbase and Microsoft MVP. Thanks to Matt for giving me an opportunity to participate again this year. You can follow the C# Advent [here](https://crosscuttingconcerns.com/). 

@@ -7,7 +7,7 @@ title: C# Developer's Impression of Swift
 summary: 'My First Impressions of the programming in Swift'
 image: 'impressions-of-swift\code.png'
 tags:
-- C#
+- CSharp
 - swift
 ---
 

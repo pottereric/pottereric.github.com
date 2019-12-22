@@ -7,7 +7,7 @@ title: "The code changes in Roslyn between 7 and 8."
 summary: "A look at home much had to change inside the compiler for the latest version."
 image: 'the-code-changes-in-roslyn-between-7-and-8_\lead.png' 
 tags:
-- C#
+- CSharp
 - NDepend
 ---
 

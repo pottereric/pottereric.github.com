@@ -8,7 +8,7 @@ summary: "What can we learn from looking the 2017 and 2018 StirTrek session data
 image: 'analyzing-the-stirtrek-conference-sessions-with-azure-cognitive-services\lead.png' 
 tags:
 - CognitiveServices
-- F#
+- FSharp
 - Canopy
 ---
 

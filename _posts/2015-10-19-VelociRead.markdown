@@ -8,7 +8,7 @@ summary: A project to for controlled speed reading.
 image: 'VelociRead\HomePage.JPG'
 tags:
 - Arduino
-- C#
+- CSharp
 ---
 
 So I had this idea. I had been using speed reading sites like [Spreeder](http://www.spreeder.com/) and [Spritz](http://spritzinc.com/). They accelerate your speeding by only showing you one word at a time. The words are always in the same place, so you don't have to move your eyes. I found them to be a very helpful way to get through my daily reading list. The only problem was that at times I wanted to vary the speed at which I was reading. Both of those tools move from one word to the next at a fixed rate.

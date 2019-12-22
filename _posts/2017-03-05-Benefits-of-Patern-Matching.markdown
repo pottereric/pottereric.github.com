@@ -8,7 +8,7 @@ summary: 'Pattern Matching'
 image: 'Benefits-of-Pattern-Matching\MainPage.jpg'
 tags:
 - PatternMatching
-- C#
+- CSharp
 ---
 
 As someone who dabbles in F#, I was excited when I heard that C# was getting Pattern Matching. In this post I want to look at why it is so beneficial. 

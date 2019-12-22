@@ -8,7 +8,7 @@ summary: 'Driving Canopy Tests with TypeProviders'
 image: 'Driving-Canopy-Tests-with-TypeProviders\canopylink.jpg'
 tags:
 - Canopy
-- F#
+- FSharp
 ---
 
 

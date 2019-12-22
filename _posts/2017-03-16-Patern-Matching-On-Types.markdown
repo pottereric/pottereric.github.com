@@ -8,7 +8,7 @@ summary: 'Pattern Matching on Types'
 image: 'Benefits-of-Pattern-Matching\MainPage.jpg'
 tags:
 - PatternMatching
-- C#
+- CSharp
 ---
 
 In the [previous post](http://humbletoolsmith.com/2017/03/15/Pattern-Matching-and-Tuples/), there was a subtle feature that I didn't highlight. That was the fact that the switch statement was switching on a tuple, which is a struct. This might not seem like a big deal, but before C# 7.0, if you tried to switch on a struct, you would have gotten the following error message:
