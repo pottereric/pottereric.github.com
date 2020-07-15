@@ -4,7 +4,7 @@ date: 2020-07-09 4:00:00
 layout: post
 slug: examining-the-fractal-nature-of-coupling-and-cohesion
 title: "Examining the fractal nature of coupling and cohesion"
-summary: "TODO"
+summary: "Code coupling can happen at different levels of magnification. Visualization tools can help you detect it."
 image: 'examining-the-fractal-nature-of-coupling-and-cohesion\lead.png' 
 tags:
 - Object Oriented Design
