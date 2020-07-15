@@ -17,7 +17,7 @@ We write code to build functions. With more code, we compose the functions into 
 
 I've always been fascinated by the fact that some attributes of the code apply equally at each level of abstraction. In particular, the concepts of coupling and cohesion apply at the function level, the class level, and at the package level.
 
-Coupling is the degree to which a unit of code is dependant on other units of code. Ideally, code has few dependencies. This makes it easier to understand, modify, and fix. In order for the software to do anything meaningful, the separate code units must work together. So our goal is not to eliminate coupling, but to minimize it. Functions can be coupled, modules can be coupled, and packages can be coupled.
+Coupling is the degree to which a unit of code is dependent on other units of code. Ideally, code has few dependencies. This makes it easier to understand, modify, and fix. In order for the software to do anything meaningful, the separate code units must work together. So our goal is not to eliminate coupling, but to minimize it. Functions can be coupled, modules can be coupled, and packages can be coupled.
 
 If we know that we want to minimize coupling, how do we analyze our code to blocks that might be problematic? We can look at the code itself to find coupling, but it is easier to find it using a visualization tool. Fortunately, C# developers have some good options for tools.
 
