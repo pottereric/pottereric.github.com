@@ -12,11 +12,14 @@ tags:
 
 All too frequently, we hear news of another major software bug. Bugs from big companies make the biggest news. Bugs from little companies seem just as common. As programmers, all these bugs are costing us time and money. We know we need to improve. But we can't seem to figure out how.
 
-As an industry, we've tried solving this problem with increasingly complex processes, increasingly complex tools, and sophisticated techniques. But Edsger Dijkstra proposed a different solution. 
+As an industry, we've tried solving this problem with increasingly complex processes, increasingly complex tools, and sophisticated techniques. But Edsger Dijkstra proposed a different, simpler solution. 
 
 Dijkstra was one of the early pioneers of software development. He made important contributions in compilers, operating systems, and distributed systems. But he didn't claim that advances in these areas would lead to more reliable software. What he thought would make the most significant difference was humility. 
 
-In his [ACM Turing Award lecture](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html), given in 1972, he described the process he envisioned for consistently delivering high-quality software. He saw the keys to this revolution being the use of abstraction to make programs intellectually manageable, developing correctness proofs alongside the software, and approaching the task of software development as humble programmers. 
+In his 1972 [ACM Turing Award lecture](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html), he described the process he envisioned for consistently delivering high-quality software. He saw the 3 keys to this revolution
+1. The use of abstraction to make programs intellectually manageable
+2. Developing correctness proofs alongside the software
+3. Approaching the task of software development as humble programmers
 
 Why did he think that humility was a critical component? Let's look at the key passage in the lecture:
 
@@ -24,7 +27,7 @@ Why did he think that humility was a critical component? Let's look at the key p
 
 Dijkstra reminds us that our brains are not perfect computing machines. We must not treat them as if they were. We must be open to the possibility at all times that we have made a mistake. Dijkstra is not saying that we should act like we are morons. He's saying that we need to remember our limitations.
 
-Let me be clear. I'm not trying to reinforce imposter syndrome. I'm not advocating for intellectual gatekeeping. You can be an excellent developer and still need to be mindful of your limitations. In fact, in a true and seemingly paradoxical way, healthy humility can help you go from being a good programmer to a great one.
+Let me be clear. I'm not trying to reinforce impostor syndrome. I'm not advocating for intellectual gatekeeping. You can be an excellent developer and still need to be mindful of your limitations. In fact, in a true and seemingly paradoxical way, healthy humility can help you go from being a good programmer to a great one.
 
 He says, "brainpower is by far our scarcest resource." He said that back in 1972. How much more true is that statement today with our modern computers, programming languages, IDEs, and associated tools. 
 
