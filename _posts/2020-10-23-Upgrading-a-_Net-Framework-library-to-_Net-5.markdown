@@ -46,4 +46,4 @@ After I got Biggy.Core to compile, I went through the same process with Biggy.Da
 
 ### Results ###
 
-Overall, moving the first three projects in this solution to .Net Core was pretty easy. If there had been a NuGet package that couldn't have been easily upgraded or replaced that would have made the process more difficult. In the next post, I'll try to upgrade Biggy.SqlLite and Biggy.Postges and see if there are larger challenges.
+Overall, moving the first three projects in this solution to .Net Core was pretty easy. If there had been a NuGet package that couldn't have been easily upgraded or replaced that would have made the process more difficult. In the [next post](http://humbletoolsmith.com/2020/11/24/upgrading-configurationmanager-for-_net-5/), I'll try to upgrade Biggy.SqlLite and Biggy.Postges and see if there are larger challenges.
