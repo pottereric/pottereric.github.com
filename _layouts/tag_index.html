@@ -10,12 +10,12 @@ layout: layout
             {% if tag == page.tag %}
                 <div class="row">
                   <div class="span2">
-                    <a href="{{ post.url }}" >
+                    <a href="{{ post.url | downcase }}" >
                         <img border="0" width="250" height="150" src="/img/posts/{{ post.image }}" alt="{{ post.title }} image" class="img-rounded">
                     </a>
                   </div>
                   <div class="span5">
-                    <h4><strong><a href="{{ post.url }}">{{ post.title }}</a></strong></h4>      
+                    <h4><strong><a href="{{ post.url | downcase }}">{{ post.title }}</a></strong></h4>      
                     <p>
                       {{ post.summary }}
                     </p>
