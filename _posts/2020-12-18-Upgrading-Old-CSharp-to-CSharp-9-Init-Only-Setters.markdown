@@ -11,6 +11,10 @@ tags:
 - C#9
 ---
 
+This is my contribution to the fantastic series of blog posts in this year's [C# Advent Calendar](https://www.csadvent.christmas/). Please check out the rest of the posts for more great content.
+
+-----
+
 In my past [two](http://humbletoolsmith.com/2020/10/23/upgrading-a-_net-framework-library-to-_net-5/) [posts](http://humbletoolsmith.com/2020/11/24/upgrading-configurationmanager-for-_net-5/), I've looked at upgrading an older C# code base to .Net 5. In this post I'm going to start looking at modernizing the code in that library to use C# 9. Specifically, I'm going to look at the benefits of using Init Only Setters.
 
 In the Biggy code base, there is a class named DbColumnMapping that is a prime candidate for init only setters. The class has properties that hold metadata about columns. Obviously, there is some data, like the table name, that never needs to change. But it is nice to be able to set the value from outside the class. 
