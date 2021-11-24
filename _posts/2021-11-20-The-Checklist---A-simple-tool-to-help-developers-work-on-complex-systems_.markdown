@@ -4,7 +4,7 @@ date: 2021-11-20 4:00:00
 layout: post
 slug: the-checklist---a-simple-tool-to-help-developers-work-on-complex-systems_
 title: "The Checklist - A simple tool to help developers work on complex systems."
-summary: "Checklists are good!"
+summary: "A surprisingly effective tool to manage complicated situations."
 image: 'the-checklist---a-simple-tool-to-help-developers-work-on-complex-systems_\lead.png' 
 tags:
 - Books
