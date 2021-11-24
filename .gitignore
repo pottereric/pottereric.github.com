@@ -1,5 +1,6 @@
 drafts
 _site
+.jekyll-cache/
 *~
 DSC*.jpg
 *full.jpg
