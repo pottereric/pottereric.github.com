@@ -26,16 +26,23 @@ In his excellent book, The Checklist Manifesto, Atul Gawande tells the story abo
 
 The important thing that he found was that when we are solving complex or complicated problems, we tend to miss simple steps, either because we forget them or we wrongly deem them unimportant. This is not because we are dumb; it is because we are human. Our brains have a limited number of things they can hold in working memory at any given time. 
 
-**Applications for Developers**
-How do we apply this information? We need to look for places where we are solving simple problems with a routine set of steps in the midst of a larger, more complicated process. It shouldn't be something that is so common that we can easily have it memorized. It shouldn't be something that we can automate. (If you can automate it, automate it). 
+**Applications for Developers** 
+
+How do we apply this information? We need to look for places where we are solving simple problems with a routine set of steps in the midst of a more extensive, more complicated process. It shouldn't be so common that we can easily have it memorized. It shouldn't be something that we can automate. (If you can automate it, automate it). 
 
 A good example of this would be tasks that only happen periodically on a project. For example, you only periodically need to select cloud-based resources for your production environment. It would be best if you remembered to consider cost, security, performance, and integrations. Each one is important, but you could forget one of them in the excitement of planning new features. Having a checklist would ensure that all of them were at least considered, even if some were easy or not applicable. 
 
-There are two kinds of checks that are prime candidates for inclusion in a check list, task checks and communication checks. Task checks are things that must be done. Communication checks are for specific bits of information that needs to be communicated to specific people. In your development process, you must correctly identify what needs to be done and who needs to be notified. In the midst of developing and deploying an exciting new feature, you might forget that the marketing team needs to be notified when the feature is live on the site.
+Another good example would be onboarding a new developer onto the team. Will you remember to get all of the right tools installed on their laptop? Will you remember to teach them the parts of the domain necessary for the project? Will you introduce them to the appropriate stakeholders?
+
+There are two kinds of checks that are prime candidates for inclusion in a checklist, task checks and communication checks. Task checks are things that must be done. Communication checks are for specific bits of information that need to be communicated to specific people. In your development process, you must correctly identify what needs to be done and who needs to be notified. While developing and deploying an exciting new feature, you might forget that the marketing team needs to be notified when the feature is live on the site. A checklist could prevent this kind of mistake.
+
+**Future Tools**
+
+One area that I think developers could innovate on the idea of a checklist would be to have tools to generate context-appropriate checklists programmatically. Why have a static checklist when you could generate a checklist specific to your current situation? Maybe your team has a checklist for what you need to do and people you need to notify when you deliver a feature to production. But that list might be different depending on whether or not this feature required database changes. A checklist generator could create a checklist that one had the appropriate checks. 
+
+**Make a Checklist**
 
 Take some time to think about when your team missed a small step in a process. Make a checklist so that it doesn't happen again. Think about times when your team needs to get a lot of small details right in a short period of time. Make a checklist. 
-
-We work on complex systems. Let's do what we can to get them right.  
 
 
 
