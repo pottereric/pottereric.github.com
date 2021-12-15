@@ -23,7 +23,7 @@ I wanted to know what Notebooks could do with asynchronous code. So I created tw
 Then I invoke both functions, assign their tasks into variables, and then use Task.AwaitAll to wait until both functions run to completion. When the code is executed, you can see that both functions are executing at the same time. (Yes, I know that they aren't necessarily running simultaneously at the CPU level.)
 
 
-[![](/img/posts/examining-async-behavior-in-_net-notebooks/WaitAll.png)](/img/posts/examining-async-behavior-in-_net-notebooks/WaitAll.png)
+[![](/img/posts/examining-async-behavior-in-_net-notebooks/WhenAll.gif)](/img/posts/examining-async-behavior-in-_net-notebooks/WhenAll.gif)
 
 Now that we understand the Notebook behavior a little better, we can run some experiments. What happens when we square all the values from 1 to 100 but only cube the values from 1 to 50? We see that the cube function finishes much earlier. What happens when we change the WhenAll function to WhenAny? We see that the squares function stops executing when the cube function completes. 
 
