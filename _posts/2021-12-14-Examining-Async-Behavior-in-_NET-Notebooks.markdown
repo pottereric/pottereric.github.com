@@ -10,6 +10,8 @@ tags:
 - C#
 ---
 
+This post was written and published as part of the [2021 C# Advent](https://www.csadvent.christmas/).
+
 One of my favorite new tools is the .NET Interactive Notebooks plugin for Visual Studio Code. It allows you to intermingle executable code and markdown descriptions of it. So you can explain the code, run the code, and see its results all in one place. This makes the notebooks incredibly useful for teaching and exploring concepts. 
 
 One nice feature of Notebooks is that the display function returns an object that can update the displayed value. So unlike console functions that display a list of updated values, Notebooks allow you to update values in place. 
