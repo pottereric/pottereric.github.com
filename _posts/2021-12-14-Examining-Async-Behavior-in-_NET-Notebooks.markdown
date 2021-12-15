@@ -26,3 +26,5 @@ Then I invoke both functions, assign their tasks into variables, and then use Ta
 Now that we understand the Notebook behavior a little better, we can run some experiments. What happens when we square all the values from 1 to 100 but only cube the values from 1 to 50? We see that the cube function finishes much earlier. What happens when we change the WhenAll function to WhenAny? We see that the squares function stops executing when the cube function completes. 
 
 [![](/img/posts/examining-async-behavior-in-_net-notebooks/WhenAny.png)](/img/posts/examining-async-behavior-in-_net-notebooks/WhenAny.png)
+
+The beautiful part of working with .NET notebooks is that you can experiment with the code right in the notebook. I encourage you to head over to the [GitHub repo](https://github.com/pottereric/DotNetInteractiveNotebooks) to download the notebook and try it yourself.
