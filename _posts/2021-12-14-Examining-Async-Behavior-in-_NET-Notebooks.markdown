@@ -7,7 +7,7 @@ title: "Examining Async Behavior in .NET Notebooks"
 summary: "What can .NET Notebooks display when their code executes asynchronously?"
 image: 'examining-async-behavior-in-_net-notebooks\lead.png' 
 tags:
-- C#
+- CSharp
 ---
 
 This post was written and published as part of the [2021 C# Advent](https://www.csadvent.christmas/).

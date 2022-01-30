@@ -7,8 +7,8 @@ title: "Upgrading Old C# to C# 9: Init Only Setters"
 summary: "How can init only setters be used to make C# 9 more clearly express write-once behavior?"
 image: 'upgrading-old-csharp-to-csharp-9-init-only-setters\lead.png' 
 tags:
-- C#
-- C#9
+- CSharp
+- CSharp9
 ---
 
 This is my contribution to the fantastic series of blog posts in this year's [C# Advent Calendar](https://www.csadvent.christmas/). Please check out the rest of the posts for more great content.

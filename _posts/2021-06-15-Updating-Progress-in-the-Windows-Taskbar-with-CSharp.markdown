@@ -7,7 +7,7 @@ title: "Updating Progress in the Windows Taskbar with C#"
 summary: "Building a simple Pomodoro Timer that displays progress in the Taskbar"
 image: 'updating-progress-in-the-windows-taskbar-with-csharp\lead.png' 
 tags:
-- C#
+- CSharp
 ---
 
 I've been using the Pomodoro Technique to structure my work day for a few years I find it very helpful to plan and focus my work. But it requires a timer. I have used [Tomighty](https://tomighty.github.io/) and [PomoFocus.io](https://pomofocus.io/), but I wanted something different.
