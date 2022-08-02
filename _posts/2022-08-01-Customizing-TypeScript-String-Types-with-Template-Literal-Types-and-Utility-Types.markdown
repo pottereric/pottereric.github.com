@@ -4,7 +4,7 @@ date: 2022-08-01 4:00:00
 layout: post
 slug: customizing-typescript-string-types-with-template-literal-types-and-utility-types
 title: "Customizing TypeScript String Types with Template Literal Types and Utility Types"
-summary: "TODO teset"
+summary: "Combining type system features to generate more valuable types"
 image: 'customizing-typescript-string-types-with-template-literal-types-and-utility-types\lead.png' 
 tags:
 - TypeScript
