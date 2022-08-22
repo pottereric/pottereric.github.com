@@ -38,7 +38,7 @@ As you can see from the Intellisense pictured below, the expandedGrades type tha
 
 ### Utility Types
 
-TypeScript also provides tools to customize type definitions called [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html#excludeuniontype-excludedmembers). For our purpose we want to use the Exclude operator, which can remove items from a Union Type. Since String Literals are Union Types, we can use the Exclude operator to exclude 'F+' and 'F-' from our list, as pictured before on line 20. 
+TypeScript also provides tools to customize type definitions called [Utility Types](https://www.typescriptlang.org/docs/handbook/utility-types.html#excludeuniontype-excludedmembers). For our purpose we want to use the Exclude operator, which can remove items from a Union Type. Since String Literals are Union Types, we can use the Exclude operator to exclude 'F+' and 'F-' from our list, as pictured below on line 20. 
 
 [![](/img/posts/customizing-typescript-string-types-with-template-literal-types-and-utility-types/Utility Types.png)](/img/posts/customizing-typescript-string-types-with-template-literal-types-and-utility-types/Utility Types.png)
 
