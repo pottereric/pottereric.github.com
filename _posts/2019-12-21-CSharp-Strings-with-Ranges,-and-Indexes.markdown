@@ -36,7 +36,7 @@ Because the range starts at the beginning of the collection of characters in the
 <span style="color:yellowgreen;">}</span>
 </pre>
 
-What would be more likely is that you would want to get the file name without the extension. Assuming that you know with certainty that the file extension will always be three characters, you could define a range the starts at the beginning of the string and ends four characters from the end. You do this by using the caret to indicate that an index counts from the back of the collection. So a range of [0..^4] would retrieve all but the last for characters, which in this case would be the file name without ".txt".
+What would be more likely is that you would want to get the file name without the extension. Assuming that you know with certainty that the file extension will always be three characters, you could define a range the starts at the beginning of the string and ends four characters from the end. You do this by using the caret to indicate that an index counts from the back of the collection. So a range of [0..^4] would retrieve all but the last four characters, which in this case would be the file name without ".txt".
 
 <pre style="font-family:InputMono;font-size:15px;color:gainsboro;background:#1e1e1e;"><span style="color:yellowgreen;">[</span><span style="color:#4ec9b0;">TestMethod</span><span style="color:yellowgreen;">]</span>
 <span style="color:#569cd6;">public</span>&nbsp;<span style="color:#569cd6;">void</span>&nbsp;<span style="font-weight:bold;color:#dcdcaa;">GetTheFileNameWithoutTheExtension</span><span style="color:yellowgreen;">()</span>
