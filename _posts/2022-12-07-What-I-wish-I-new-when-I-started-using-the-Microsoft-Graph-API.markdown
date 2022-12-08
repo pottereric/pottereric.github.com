@@ -10,6 +10,8 @@ tags:
 - CSharp
 ---
 
+Note: This post is a part of the 2022 C# Advent Calendar. You can see the rest of the posts [here](https://csadvent.christmas/).
+
 The Microsoft Graph API is a powerful way to automate interactions with the Microsoft apps you use every day. For example, you could use it to generate Todo items in your Microsoft TOOD account based on data in an Excel spreadsheet. Or you could respond to an event in your custom application by automatically scheduling an Outlook meeting. You can do all this and more from a single API. Or, if you're a C# developer, you can do it with a single [NuGet package](https://www.nuget.org/packages/Microsoft.Graph/). (packages are also available for other languages)
 
 I like to think of working with the Graph API as being a two step process:
