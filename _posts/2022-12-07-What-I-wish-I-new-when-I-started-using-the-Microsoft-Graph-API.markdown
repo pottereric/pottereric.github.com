@@ -2,8 +2,8 @@
 comments: true
 date: 2022-12-07 4:00:00
 layout: post
-slug: what-i-wish-i-new-when-i-started-using-the-microsoft-graph-api
-title: "What I wish I new when I started using the Microsoft Graph API"
+slug: what-i-wish-i-knew-when-i-started-using-the-microsoft-graph-api
+title: "What I wish I knew when I started using the Microsoft Graph API"
 summary: "Tips to get started faster building your first app with Microsoft Graph."
 image: 'what-i-wish-i-new-when-i-started-using-the-microsoft-graph-api\lead.png' 
 tags:
