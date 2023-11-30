@@ -18,7 +18,7 @@ I bought a [Behringer Xenyx 302USB](https://www.sweetwater.com/store/detail/X302
 
 The Xenyx has a USB connection and can serve as both a USB input and USB output device. I originally intended to use the USB connection to one computer and send the headphone output from the other computer into the mixer's second channel. One thing I ran into right away is that USB audio degrades quickly when running through a USB hub. I had to change my setup so the mixer plugs directly into the laptop. 
 
-To go from the headphone output into the mixer, I needed an [adapter](https://www.sweetwater.com/store/detail/CMR203--hosa-cmr-203-stereo-breakout-3.5mm-trs-to-dual-rca-3-foot) to go from an 1/8 to RCA. The audio seemed better using the RCA connection. So, I got a second breakout cable. I have both computers configured to send the audio output to the headphones, which routes it to the mixer. I use the USB connection, but just to make the mixer a microphone for one of the computers.
+To go from the headphone output into the mixer, I needed an [adapter](https://www.sweetwater.com/store/detail/CMR203--hosa-cmr-203-stereo-breakout-3.5mm-trs-to-dual-rca-3-foot) to go from an 3.5mm headphone plug to RCA. The audio seemed better using the RCA connection. So, I got a second breakout cable. I have both computers configured to send the audio output to the headphones, which routes it to the mixer. I use the USB connection, but just to make the mixer a microphone for one of the computers.
 
 [![](/img/posts/using-one-headset-with-two-computers/Mixer Setup.svg)](/img/posts/using-one-headset-with-two-computers/Mixer Setup.svg)
 
@@ -26,7 +26,7 @@ I want to point out two caveats. First, the microphone only goes into one of the
 
 [![](/img/posts/using-one-headset-with-two-computers/Mixer Setup.jpg)](/img/posts/using-one-headset-with-two-computers/Mixer Setup.jpg)
 
-So far, I'm loving this setup. If I need to watch a video on either computer, I can hear it in the same headset. And I've got additional physical volume controls for the headphones and my microphone. 
+So far, I'm loving this setup. If I need to watch a video on either computer, I can hear it in the same headset. If I want to, I can listen to audio from both computers at once. This could come in handy if I want to add Chumbawumba as the background music to a video tutorial. And I've got additional physical volume controls for the headphones and my microphone. 
 
 In theory, I could mix audio output from either computer with my mic input and out to a Zoom call, but I don't see myself doing that. And if I wanted to, I could upgrade my setup to use an XLR mic instead of a headset mic. 
 
