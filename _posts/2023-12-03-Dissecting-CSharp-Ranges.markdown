@@ -9,6 +9,7 @@ image: 'dissecting-csharp-ranges\lead.png'
 tags:
 - C#
 ---
+This post is part of [2023 C# Advent](https://www.csadvent.christmas/)! Be sure to check every day for new posts from the .NET community!
 
 Recently, I was teaching C# to a group of developers. When I got to the topic of ranges, I was surprised at how much nuance there was. In this post, I don't want to go into all of the features of ranges. That is covered in other places. I want to look at the structure of ranges to see that we can learn about them.
 
